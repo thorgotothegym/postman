@@ -1,0 +1,19 @@
+{
+  "compute": {
+    "POST": {
+      "status": "Computation started",
+      "message": "Check /finished endpoint for completion status"
+    }
+  },
+  "status": {
+    "GET": {
+      "finished": true
+    }
+  },
+  "": {
+    "GET": {
+      "status": 200,
+      "message": "Service is running"
+    }
+  }
+}
